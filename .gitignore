@@ -1,0 +1,20 @@
+# Ignore ISPC binaries and libraries
+ispc-v1.28.2-macOS.universal/
+ispc-v1.28.2-macOS.universal/lib/
+ispc-v1.28.2-macOS.universal/bin/
+
+# Build and output directories
+build/
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.exe
+*.dylib
+
+# Image output
+*.ppm
+
+# macOS system files
+.DS_Store
+
